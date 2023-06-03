@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c12a21;
+    justify-content: center;
+}
+
+.visual{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.logo{
+    margin: 10% auto 0px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: Marker Felt, fantasy;
+    font-weight: 350;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.botao {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao button{
+    background-color: #fff;
+    color: #535353;
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border-radius: 45px;
+    border: none;
+    font-family: Marker Felt, fantasy;
+    font-weight: 850;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.botao button:hover{
+    background-color: #3f144d;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+/*******************************
+Seletor universal */
+* {
+	border: 1px solid red;
+}
+
+/*******************************
+Seletor de texto */
+h1 {
+	color: blue;
+}
+
+/*******************************
+Seletor de classe */
+
+.verde{
+	color: green;
+}
+
+p.verde{
+	color: green;
+}
+
+/*******************************
+Seletor de id */
+
+/*******************************
+Seletor de filho */

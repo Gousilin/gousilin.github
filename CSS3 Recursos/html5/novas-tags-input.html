@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Novas Tags de Input</title>
+      <meta charset="utf-8">
+
+      <!-- Estilo Customizado -->
+      <link rel="stylesheet" type="text/css" href="css/estilo-tags-input.css">
+
+    </head>
+    <body>
+
+      <form>
+        
+        <!-- novos Inputs e atributos html 5 -->
+        <!-- Nome required-->
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome"  autofocus>
+        <br><br>
+        
+        <!-- Email required-->
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" >
+        <br><br>
+        
+        <!-- Número -->
+        <label for="numero">Número</label>
+        <input type="number" id="numero" required min="5" max="10" step="5">
+        <br><br>
+
+        <!-- Url -->
+        <label for="url">URL</label>
+        <input type="url" id="url" placeholder="ex: http:// wwww...">
+        <br><br>
+        
+        <!-- Pesquisa -->
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa">
+        <br><br>
+        
+        <!-- Range -->
+        <label for="range">Range</label>
+        <input type="range" id="range" min="1" max="3" value="1">
+        <br><br>
+        
+        <!-- Data -->
+        <label for="data">Data</label>
+        <input type="date" id="data">
+        <br><br>
+        
+        <!-- Cor -->
+        <label for="cor">Data</label>
+        <input type="color" id="cor">
+        <br><br>
+
+
+        <input type="submit" name="" value="Enviar">
+
+
+      </form>
+      
+
+    </body>
+</html>

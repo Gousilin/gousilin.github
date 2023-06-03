@@ -1,0 +1,87 @@
+body {
+    background: url('./img/fundo.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.nav {
+    padding: 5px;
+
+}
+
+.head {
+    text-align: center;
+}
+
+
+.head ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.head ul li a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.head ul li button {
+    background-color: rgba(255, 255, 255, 0.233);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.head ul li button:hover {
+    background-color: rgb(159, 140, 177);
+}
+
+header img {
+    border: 5px solid rgba(255, 255, 255, 0.233);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.foto {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+
+.info {
+    background-color: rgba(255, 255, 255, 0.233);
+    padding-top: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+.info p {
+    text-indent: 30px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding-top: 90px;
+}
